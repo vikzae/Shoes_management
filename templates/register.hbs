@@ -1,0 +1,24 @@
+{{>header}}
+<main>
+    <h1>Register</h1>
+        <p class="form-info">Already registered?
+            <a href="/login">Login now</a> and have some fun!
+        </p>
+
+        <form action="/register" method="post">
+            <div class="form-group">
+                <input type="email" placeholder="Email..." id="email">
+            </div>
+            <div>
+                <input type="password" placeholder="Password" id="password">
+            </div>
+            <div>
+                <input type="password" placeholder="Re-password" id="repassword">
+            </div>
+            <div>
+                <p class="message"></p>
+                <button  type="submit">Register</button>
+            </div>
+        </form>
+</main>
+{{>footer}}
